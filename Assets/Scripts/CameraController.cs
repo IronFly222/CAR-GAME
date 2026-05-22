@@ -1,4 +1,4 @@
-using UnityEngine;
+using UnityEngine;S
 
 public class CameraController : MonoBehaviour
 {
