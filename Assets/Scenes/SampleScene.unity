@@ -1113,15 +1113,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 1836548457}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &99905082
 Transform:
   m_ObjectHideFlags: 0
@@ -1717,15 +1708,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 2133085322}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &127242858
 Transform:
   m_ObjectHideFlags: 0
@@ -1956,15 +1938,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 1118534670}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &207143584
 Transform:
   m_ObjectHideFlags: 0
@@ -4553,15 +4526,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 19633691}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &475425469
 Transform:
   m_ObjectHideFlags: 0
@@ -6489,15 +6453,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 494235537}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &593746301
 Transform:
   m_ObjectHideFlags: 0
@@ -9151,7 +9106,6 @@ MonoBehaviour:
   RoadV1: {x: 0, y: 0}
   RoadV2: {x: 0, y: 0}
   RoadV3: {x: 0, y: 0}
-  GizmoDrawMeters: 1
 --- !u!134 &1015706107
 PhysicsMaterial:
   m_ObjectHideFlags: 0
@@ -10033,15 +9987,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 416498755}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &1068275211
 Transform:
   m_ObjectHideFlags: 0
@@ -10760,16 +10705,8 @@ MonoBehaviour:
   terrain: {fileID: 1122255901}
   splatResoWidth: 1024
   splatResoHeight: 1024
-  splatBackground:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  splatForeground:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
+  splatBackground: {r: 0, g: 0, b: 0, a: 1}
+  splatForeground: {r: 1, g: 1, b: 1, a: 1}
   splatWidth: 30
   isSplatSkipBridges: 0
   isSplatSkipTunnels: 0
@@ -11042,15 +10979,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 378569341}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &1150270671
 Transform:
   m_ObjectHideFlags: 0
@@ -12758,44 +12686,18 @@ MonoBehaviour:
   isProfiling: 0
   isSkippingStore: 1
   isEditorError: 0
-  editorTimer: 0
-  editorTimerMax: 0
-  editorTimerSpline: 0
   isUpdateRequired: 0
   isTriggeringGC: 0
-  isTriggeredGCExecuting: 0
-  triggerGCEnd: 0
-  EditorCameraNextMove: 0
-  isEditorCameraSetup: 0
-  EditorCameraStartPos: 0
-  EditorCameraEndPos: 1
-  EditorCameraIncrementDistance: 0
-  EditorCameraIncrementDistance_Full: 0
   EditorCameraMetersPerSecond: 60
   isEditorCameraRotated: 0
-  EditorCameraV1: {x: 0, y: 0, z: 0}
-  EditorCameraV2: {x: 0, y: 0, z: 0}
-  editorCameraBadVec: {x: 0, y: 0, z: 0}
   isEditorConstructing: 0
   editorConstructionID: 0
   isEditorSelected: 1
   isEditorMouseHittingTerrain: 0
   editorMousePos: {x: 0, y: 0, z: 0}
-  defaultNodeColor:
-    r: 0
-    g: 1
-    b: 1
-    a: 0.75
-  selectedColor:
-    r: 1
-    g: 0.92156863
-    b: 0.015686275
-    a: 1
-  newNodePreviewColor:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
+  defaultNodeColor: {r: 0, g: 1, b: 1, a: 0.75}
+  selectedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  newNodePreviewColor: {r: 1, g: 0, b: 0, a: 1}
   EditorCameraTimer: 0
 --- !u!134 &1335853771
 PhysicsMaterial:
@@ -13794,15 +13696,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 1707003048}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &1401543269
 Transform:
   m_ObjectHideFlags: 0
@@ -14084,15 +13977,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 1026268417}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &1437447576
 Transform:
   m_ObjectHideFlags: 0
@@ -14435,44 +14319,18 @@ MonoBehaviour:
   isProfiling: 0
   isSkippingStore: 1
   isEditorError: 0
-  editorTimer: 0
-  editorTimerMax: 0
-  editorTimerSpline: 0
   isUpdateRequired: 0
   isTriggeringGC: 0
-  isTriggeredGCExecuting: 0
-  triggerGCEnd: 0
-  EditorCameraNextMove: 0
-  isEditorCameraSetup: 0
-  EditorCameraStartPos: 0
-  EditorCameraEndPos: 1
-  EditorCameraIncrementDistance: 0
-  EditorCameraIncrementDistance_Full: 0
   EditorCameraMetersPerSecond: 60
   isEditorCameraRotated: 0
-  EditorCameraV1: {x: 0, y: 0, z: 0}
-  EditorCameraV2: {x: 0, y: 0, z: 0}
-  editorCameraBadVec: {x: 0, y: 0, z: 0}
   isEditorConstructing: 0
   editorConstructionID: 0
   isEditorSelected: 0
   isEditorMouseHittingTerrain: 0
   editorMousePos: {x: 21.888626, y: 3.5661335, z: 25.54123}
-  defaultNodeColor:
-    r: 0
-    g: 1
-    b: 1
-    a: 0.75
-  selectedColor:
-    r: 1
-    g: 0.92156863
-    b: 0.015686275
-    a: 1
-  newNodePreviewColor:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
+  defaultNodeColor: {r: 0, g: 1, b: 1, a: 0.75}
+  selectedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  newNodePreviewColor: {r: 1, g: 0, b: 0, a: 1}
   EditorCameraTimer: 0
 --- !u!43 &1485200563
 Mesh:
@@ -15286,15 +15144,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 0}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!43 &1677062225
 Mesh:
   m_ObjectHideFlags: 0
@@ -17008,15 +16857,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 118649214}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &1965748050
 Transform:
   m_ObjectHideFlags: 0
@@ -18524,7 +18364,6 @@ MonoBehaviour:
   RoadV1: {x: 285.28528, y: -85.663704}
   RoadV2: {x: 285.28528, y: 288.64847}
   RoadV3: {x: -85.242485, y: 288.64847}
-  GizmoDrawMeters: 1
 --- !u!114 &2006200466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18542,7 +18381,6 @@ MonoBehaviour:
   mousePos: {x: 21.888626, y: 3.5661335, z: 25.54123}
   spline: {fileID: 2006200465}
   isDrawingGizmos: 0
-  gizmoDrawMeters: 1
 --- !u!114 &2006200467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18560,7 +18398,6 @@ MonoBehaviour:
   mousePos: {x: 29.22694, y: 11.847647, z: 88.28012}
   spline: {fileID: 2006200465}
   isDrawingGizmos: 0
-  gizmoDrawMeters: 1
 --- !u!1 &2015630504
 GameObject:
   m_ObjectHideFlags: 0
@@ -18649,15 +18486,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 977889879}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &2015630506
 Transform:
   m_ObjectHideFlags: 0
@@ -19003,15 +18831,6 @@ MonoBehaviour:
   roadCutMarker: {fileID: 1466489565}
   shoulderCutRMarker: {fileID: 0}
   shoulderCutLMarker: {fileID: 0}
-  roadCutWorldMats: []
-  shoulderCutRWorldMats: []
-  shoulderCutLWorldMats: []
-  roadCutMarkerMats: []
-  shoulderCutRMarkerMats: []
-  shoulderCutLMarkerMats: []
-  roadCutPhysicMat: {fileID: 0}
-  shoulderCutRPhysicMat: {fileID: 0}
-  shoulderCutLPhysicMat: {fileID: 0}
 --- !u!4 &2031754536
 Transform:
   m_ObjectHideFlags: 0

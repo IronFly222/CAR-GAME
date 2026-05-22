@@ -1,5 +1,6 @@
 ﻿<Solution>
   <Project Path="Utilities.Editor.csproj" />
+  <Project Path="RoadArchitect.csproj" />
   <Project Path="Utilities.Inputs.csproj" />
   <Project Path="Utilities.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
